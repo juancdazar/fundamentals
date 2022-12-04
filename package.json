@@ -1,0 +1,21 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fmt": "prettier --write '**/(*.js|.ts|.jsx|.tsx|.md)'",
+    "fmt:check": "prettier --check '**/(*.js|.ts|.jsx|.tsx|.md)'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whizzes/inputio": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "prettier": "^2.8.0"
+  }
+}
